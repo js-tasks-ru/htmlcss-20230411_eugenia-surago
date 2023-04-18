@@ -1,5 +1,10 @@
 @import '../fonts/fonts.css';
 
+@import "../../components/page/page.css";
+@import "../../components/header/header.css";
+@import "../../components/main/main.css";
+@import "../../components/footer/footer.css";
+
 :root {
     --white: #ffffff;
     --black: #212429;
@@ -17,6 +22,10 @@
 
     --primary: var(--blue);
     --secondary: var(--purple);
+}
+
+.brd {
+    border: 1px solid black; 
 }
 
 * {

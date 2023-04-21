@@ -24,9 +24,9 @@
     --secondary: var(--purple);
 }
 
-.brd {
+/* .brd {
     border: 1px solid black; 
-}
+} */
 
 * {
     font-family: 'Roboto', sans-serif;

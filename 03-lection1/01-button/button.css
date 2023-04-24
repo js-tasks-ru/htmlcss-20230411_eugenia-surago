@@ -1,53 +1,43 @@
-:root {
-   --main-opacity: 0.5;
- }
+.button {
+   border-radius: 8px;
+   border: none;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 19px;
+   text-align: center;
+   padding: 15px 65px 15px 65px;
+}
 
-button {
-     border-radius: 8px;
-     height: 48px;
-     width: 189px;
-     border: none;
- }
+.button:disabled {
+   opacity: var(--main-opacity);
+   pointer-events: none;  
+}
 
- .primary:hover {
-    background: #2342C0;
- }
- 
- .primary {
-    background: #4263EB; 
-    color: #FFFFFF; 
- }
+.button_primary:hover {
+   background: #2342C0;
+}
 
- .primary_disabled {
-    opacity: var(--main-opacity);
-    pointer-events: none;
- }
+.button_primary {
+   background: #4263EB;
+   color: #FFFFFF;
+}
 
- .secondary:hover {
-    background:#5028C6;
- }
+.button_secondary:hover {
+   background: #5028C6;
+}
 
- .secondary {
-    background: #7048E8;
-    color: #FFFFFF; 
- }
+.button_secondary {
+   background: #7048E8;
+   color: #FFFFFF;
+}
 
- .secondary_disabled {
-    opacity: var(--main-opacity);
-    pointer-events: none; 
- }
+.button_alternate:hover {
+   border: 1px solid #000000;
+}
 
- .alternate:hover {
-    border: 1px solid #000000;
- }
-
- .alternate {
-    background: #FFFFFF;
-    border: 1px solid #ACB5BD;
- }
-
- .alternate_disabled {
-    opacity: var(--main-opacity);
-    pointer-events: none; 
- }
- 
+.button_alternate {
+   background: #FFFFFF;
+   border: 1px solid #ACB5BD;
+}

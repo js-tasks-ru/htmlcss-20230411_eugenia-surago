@@ -1,0 +1,10 @@
+.hist {
+    width: 354px;
+    border: 1px solid #ACB5BD;
+    border-radius: 8px;
+}
+
+.hist__total {
+    color: #212429;
+    opacity: 0.8;
+}

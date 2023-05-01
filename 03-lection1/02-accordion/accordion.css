@@ -5,6 +5,13 @@
     border-radius: 8px;
     box-sizing: border-box;
     margin-bottom: 8px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px; /* or 150% */
+    color: #495057;
 }
 
 .acc__details:last-child {
@@ -18,6 +25,7 @@
 
 .acc__title {
     display: block;
+    position: relative;
     padding: 24px 32px 24px 32px;
 }
 
@@ -27,6 +35,6 @@
 }
 
 .acc__arrow {
-    right: 32px;
-    position: absolute;
+    left:   1200px;
+    position: relative;
 }

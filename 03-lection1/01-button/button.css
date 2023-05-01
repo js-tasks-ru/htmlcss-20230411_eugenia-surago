@@ -8,6 +8,7 @@
    line-height: 19px;
    text-align: center;
    padding: 15px 65px 15px 65px;
+   height: 48px;
 }
 
 .button:disabled {

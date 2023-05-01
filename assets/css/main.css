@@ -22,6 +22,8 @@
 
     --primary: var(--blue);
     --secondary: var(--purple);
+
+    --main-opacity: 0.5;
 }
 
 /* .brd {

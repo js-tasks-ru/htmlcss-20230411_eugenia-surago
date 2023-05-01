@@ -4,8 +4,6 @@
     border: 1px solid #ACB5BD;
     border-radius: 8px;
     box-sizing: border-box;
-    width: 730px;
-    height: 72px;
     margin-bottom: 8px;
 }
 
@@ -13,13 +11,9 @@
     margin-bottom: 0;
 }
 
-.acc__details[open] {
-    height: 144px;
-}
-
 .acc__text {
     color: #495057;
-    padding: 0px 32px 24px 32px;
+    padding: 0px 32px 32px 32px;
 }
 
 .acc__title {
@@ -32,30 +26,7 @@
     display: none;
 }
 
-/* Убираем стандартный маркер Chrome */
-details summary::-webkit-details-marker {
-    display: none
-}
-
-/* Убираем стандартный маркер Firefox */
-details>summary {
-    list-style: none;
-}
-
-/* Добавляем собственный маркер для закрытого состояния */
-details summary:after {
-    margin-left: 500px;
-    content: "\f107";
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    font-size: 16px;
-}
-
-/* Добавляем собственный маркер для открытого состояния */
-details[open] summary:after {
-    margin-right: 7px;
-    content: "\f106";
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    font-size: 16px;
+.acc__arrow {
+    right: 32px;
+    position: absolute;
 }

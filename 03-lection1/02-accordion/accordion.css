@@ -1,1 +1,10 @@
 /* Стилизация аккордеона */
+.hist {
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    width: 100%;
+}
+
+
+

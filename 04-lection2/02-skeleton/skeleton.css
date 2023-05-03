@@ -31,28 +31,22 @@
     margin-right: 16px;
 }
 
-.skelet__rect-up {
-    width: 172px;
+.skelet__line {
     height: 20px;
-    background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+    background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);   
 }
 
-.skelet__rect-down {
-    width: 257px;
-    height: 20px;
-    background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
-    margin-top: 8px;
+.skelet__line_min {
+    width: 172px;   
 }
 
-.skelet__bottom-up {
-    width: 515px;
-    height: 20px;
-    background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+.skelet__line_mid {
+    width: 257px; 
+    margin-top: 8px;  
 }
 
-.skelet__bottom-down {
-    width: 515px;
-    height: 20px;
-    background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
-    margin-top: 8px;
+.skelet__line_max {
+    width: 515px; 
+    margin-bottom: 8px;  
 }
+

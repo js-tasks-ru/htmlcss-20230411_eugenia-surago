@@ -5,8 +5,6 @@
     border-radius: 8px;
     padding: 24px 40px 32px 24px;
     box-sizing: border-box;
-    width: 579px;
-    height: 192px
 }
 
 .skelet__top {
@@ -16,6 +14,7 @@
 }
 
 .skelet__rect {
+    width: 100%;
     margin-top: 8px;
 }
 
@@ -37,16 +36,16 @@
 }
 
 .skelet__line_min {
-    width: 172px;   
+    width: 25%;   
 }
 
 .skelet__line_mid {
-    width: 257px; 
+    width: 55%; 
     margin-top: 8px;  
 }
 
 .skelet__line_max {
-    width: 515px; 
+    width: 100%; 
     margin-bottom: 8px;  
 }
 

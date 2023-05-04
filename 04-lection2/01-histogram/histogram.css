@@ -1,12 +1,18 @@
 .hist {
-    width: 300px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    max-width: 300px;
     border: 1px solid #ACB5BD;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
+    padding: 16px 24px 24px 24px;
 }
 
 .hist__total {
+    font-size: 16px;
+    line-height: 24px;
     color: #212429;
     opacity: 0.8;
 }
@@ -18,59 +24,31 @@
 }
 
 .hist__bottom {
+    height: 50px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-end;
-    padding: 39px 29px 24px 26px;
+    margin-top: 39px;
 }
 
 .hist__view {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     text-align: right;
     color: #4263EB;
-    padding: 19px 24px 0px 0px;
 }
 
-.hist__total {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #212429;
-    opacity: 0.8;
-    padding: 16px 0px 0px 24px;
-}
 
 .hist__numbers {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
     font-size: 20px;
     line-height: 26px;
     color: #212429;
-    padding: 6px 0px 0px 24px;
 }
 
-.hist__column-max {
-    width: 9px;
-    height: 50px;
+.hist__column {
     background: #4263EB;
+    flex-basis: 9px; 
+    flex-grow: 1;
 }
 
-.hist__column-mid {
-    width: 9px;
-    height: 25px;
-    background: #4263EB;
-}
-
-.hist__column-min {
-    width: 9px;
-    height: 10px;
-    background: #4263EB;
-}

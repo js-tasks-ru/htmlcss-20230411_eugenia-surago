@@ -1,0 +1,54 @@
+.hist {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    max-width: 300px;
+    border: 1px solid #ACB5BD;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 16px 24px 24px 24px;
+}
+
+.hist__total {
+    font-size: 16px;
+    line-height: 24px;
+    color: #212429;
+    opacity: 0.8;
+}
+
+.hist__top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.hist__bottom {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-top: 39px;
+}
+
+.hist__view {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    color: #4263EB;
+}
+
+
+.hist__numbers {
+    font-size: 20px;
+    line-height: 26px;
+    color: #212429;
+}
+
+.hist__column {
+    background: #4263EB;
+    flex-basis: 9px; 
+    flex-grow: 1;
+}
+

@@ -15,7 +15,6 @@
 
 .skelet__rect {
     width: 100%;
-    margin-top: 8px;
 }
 
 .skelet__bottom {
@@ -32,7 +31,8 @@
 
 .skelet__line {
     height: 20px;
-    background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);   
+    background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%); 
+    margin-top: 8px;    
 }
 
 .skelet__line_min {
@@ -40,12 +40,10 @@
 }
 
 .skelet__line_mid {
-    width: 55%; 
-    margin-top: 8px;  
+    width: 55%;  
 }
 
 .skelet__line_max {
-    width: 100%; 
-    margin-bottom: 8px;  
+    width: 100%;  
 }
 

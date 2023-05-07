@@ -1,4 +1,42 @@
 /* Стилизация аккордеона */
+/* Стилизация аккордеона */
+.acc__details {
+    border: 1px solid #ACB5BD;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin-bottom: 8px;
 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    color: #495057;
+}
 
+.acc__details:last-child {
+    margin-bottom: 0;
+}
 
+.acc__text {
+    color: #495057;
+    padding: 0px 32px 32px 32px;
+}
+
+.acc__title {
+    display: block;
+    position: relative;
+    padding: 24px 32px 24px 32px;
+}
+
+.acc__title:-webkit-details-marker {
+    /* нестандартный псевдоэлемент Google Chrome */
+    display: none;
+}
+
+.acc__arrow {
+    position: absolute;
+    top: 32px;
+    right: 32px
+}

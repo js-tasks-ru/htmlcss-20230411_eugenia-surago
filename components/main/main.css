@@ -4,13 +4,6 @@
     background: #F9FAFC;
     display: grid;
     gap: 30px;
-    grid-template-areas:
-        ". . . . ."
-        ". my-Tooltip my-Custom my-Calendar ."
-        ". my-Modal my-Histogram my-Avatar ."
-        ". . . . .";
-    grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
-    grid-template-rows: 1fr 5fr 5fr 3fr;
 }
 
 .card {
@@ -34,28 +27,4 @@
     font-family: 'Roboto', sans-serif;
     align-self: flex-end;
     margin-bottom: 30px;
-}
-
-.l-Tooltip {
-    grid-area: my-Tooltip;
-}
-
-.l-Custom {
-    grid-area: my-Custom;
-}
-
-.l-Calendar {
-    grid-area: my-Calendar;
-}
-
-.l-Modal {
-    grid-area: my-Modal;
-}
-
-.l-Histogram {
-    grid-area: my-Histogram;
-}
-
-.l-Avatar {
-    grid-area: my-Avatar;
 }

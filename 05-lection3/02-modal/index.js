@@ -1,19 +1,22 @@
 (function() {
     const close = document.getElementById('modal-close');
-    const modal = document.getElementById('modal');
-    const modalOpen = document.getElementById('modal-open');
+    const modalWrapper = document.getElementById('modal-wrapper');
+    const modalPopup = document.getElementById('modal-popup');
+    const modalButton = document.getElementById('modal-button');
 
-    if (!close || !modalOpen || !modal) {
+    if (!close || !modalButton || !modalWrapper) {
         return;
     }
 
-    modalOpen.addEventListener('click', () => {
-        modal.style.display = 'block';
+    modalButton.addEventListener('click', () => {
+        modalWrapper.style.display = 'grid';
+        modalPopup.style.display = 'block';
         document.body.overflow = 'hidden';
     });
 
     close.addEventListener('click', () => {
-        modal.style.display = 'none';
+        modalWrapper.style.display = 'none';
+        modalPopup.style.display = 'none';
         document.body.overflow = 'initial';
     });
 })();

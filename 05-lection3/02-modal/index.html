@@ -1,12 +1,27 @@
 <!DOCTYPE html>
 <!-- Страница с модалкой -->
 <html lang="ru">
-    <head>
-        <link rel="stylesheet" href="../../assets/css/main.css">
-        <link rel="stylesheet" href="./modal.css">
-        <title>Modal</title>
-    </head>
-    <body>
-    </body>
-    <script src="./index.js"></script> 
+
+<head>
+    <link rel="stylesheet" href="../../assets/css/main.css">
+    <link rel="stylesheet" href="./modal.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <title>Modal</title>
+</head>
+
+<body>
+    <div class="modal">
+        <button id="modal-button" class="modal__button">Open modal</button>
+        <div id="modal-wrapper" class="modal__wrapper">
+            <div id="modal-popup" class="modal__popup">
+                <i id="modal-close" class="modal__cross fas fa-times"></i>
+                <div class="modal__title">Modal title</div>
+                <div class="modal__text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./index.js"></script>
+
 </html>
